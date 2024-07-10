@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ecommerce-frontend
 
-## Getting Started
+<p align="center">
+  <img src="https://i.ibb.co/TBM45pT/logo.png" alt="logo">
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="https://img.shields.io/badge/Framework-next-blue%3Fstyle%3Dflat" alt="Framework-next"/>
+  <img src="https://img.shields.io/badge/Version-0.0.1-purple?style=flat" alt="Version-0.0.1"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="License-MIT"/>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## About
+
+Frontend part of the e-commerce app. Authorization and registration are supported, along with the ability to add items to a wishlist or cart, create an order and follow its delivery status, manage items by categories and filter them based on a variety of criteria, and manage many parts of application through the admin panel (like adding new brands / products / categories / etc.).
+
+The figma layout of the application was found in the public domain. [The figma layout](https://www.figma.com/community/file/1376901695536369893)
+
+## Technologies
+
+- Next.js (14)
+- Next-intl
+- Redux toolkit (4.5.4)
+- Axios (1.7.2)
+- React hook form (7.52.0)
+
+## Environment
+
+- Node 20.14.0
+- npm 10.7.0
+
+## Common setup
+
+Clone the repo and install the dependencies.
+
+```
+  git clone https://github.com/evdmatvey/ecommerce-frontend.git
+  cd ecommerce-frontend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+  npm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Development
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Run in development mode.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+  npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Run code format checker.
 
-## Learn More
+```
+  npm run format
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+  npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Developers
 
-## Deploy on Vercel
+- [evdmatvey](https://github.com/evdmatvey)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project ecommerce-frontend is distributed under the MIT license.
