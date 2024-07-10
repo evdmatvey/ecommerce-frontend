@@ -1,0 +1,65 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo > Large with icon should render correctly 1`] = `
+<DocumentFragment>
+  <img
+    alt="cartzilla logo"
+    class="_withoutIcon_4ce350 _large_4ce350"
+    data-nimg="1"
+    decoding="async"
+    height="40"
+    loading="lazy"
+    src="/logo.svg"
+    style="color: transparent;"
+    width="141"
+  />
+</DocumentFragment>
+`;
+
+exports[`Logo > Large without icon should render correctly 1`] = `
+<DocumentFragment>
+  <img
+    alt="cartzilla logo"
+    class="_withIcon_4ce350 _large_4ce350"
+    data-nimg="1"
+    decoding="async"
+    height="40"
+    loading="lazy"
+    src="/icon-logo.svg"
+    style="color: transparent;"
+    width="141"
+  />
+</DocumentFragment>
+`;
+
+exports[`Logo > Standard with icon should render correctly 1`] = `
+<DocumentFragment>
+  <img
+    alt="cartzilla logo"
+    class="_withoutIcon_4ce350 _standard_4ce350"
+    data-nimg="1"
+    decoding="async"
+    height="40"
+    loading="lazy"
+    src="/logo.svg"
+    style="color: transparent;"
+    width="141"
+  />
+</DocumentFragment>
+`;
+
+exports[`Logo > Standard without icon should render correctly 1`] = `
+<DocumentFragment>
+  <img
+    alt="cartzilla logo"
+    class="_withIcon_4ce350 _standard_4ce350"
+    data-nimg="1"
+    decoding="async"
+    height="40"
+    loading="lazy"
+    src="/icon-logo.svg"
+    style="color: transparent;"
+    width="141"
+  />
+</DocumentFragment>
+`;
