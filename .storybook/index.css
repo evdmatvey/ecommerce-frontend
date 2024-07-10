@@ -1,0 +1,5 @@
+@import url(../src/app/styles/variables.css);
+
+.dark-bg {
+  background: var(--gray-800);
+}
