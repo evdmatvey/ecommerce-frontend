@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tooltip snapshots > Tooltip 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_727287"
+    data-testid="tooltip-testid"
+  >
+    Tooltip!
+  </div>
+</DocumentFragment>
+`;
