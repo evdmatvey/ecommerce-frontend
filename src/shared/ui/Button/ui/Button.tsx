@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import { type ComponentProps, type ReactNode } from 'react';
 import styles from './Button.module.css';
-import { buttonTestIds } from './__tests__/Button.spec';
 
 interface ButtonProps extends ComponentProps<'button'> {
   color?:
@@ -42,18 +41,14 @@ const Button = ({
     },
   );
   return (
-    <button className={classes} {...props} data-testid={buttonTestIds.BUTTON}>
-      {iconPosition === 'left' && (
-        <span data-testid={buttonTestIds.ICON_LEFT}>{icon}</span>
-      )}
+    <button className={classes} {...props} data-testid="button">
+      {iconPosition === 'left' && <span data-testid="icon-left">{icon}</span>}
       {iconPosition === 'only' ? (
-        <span data-testid={buttonTestIds.ICON_ONLY}>{icon}</span>
+        <span data-testid="icon-only">{icon}</span>
       ) : (
-        <span data-testid={buttonTestIds.CHILDREN}>{children}</span>
+        <span data-testid="children">{children}</span>
       )}
-      {iconPosition === 'right' && (
-        <span data-testid={buttonTestIds.ICON_RIGHT}>{icon}</span>
-      )}
+      {iconPosition === 'right' && <span data-testid="icon-right">{icon}</span>}
     </button>
   );
 };
