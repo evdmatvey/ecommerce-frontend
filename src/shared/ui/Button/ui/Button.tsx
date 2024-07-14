@@ -46,7 +46,7 @@ const Button = ({
       {iconPosition === 'only' ? (
         <span data-testid="icon-only">{icon}</span>
       ) : (
-        <span data-testid="children">{children}</span>
+        children
       )}
       {iconPosition === 'right' && <span data-testid="icon-right">{icon}</span>}
     </button>
