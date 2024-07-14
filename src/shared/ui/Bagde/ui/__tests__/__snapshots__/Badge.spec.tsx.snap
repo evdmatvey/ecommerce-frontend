@@ -1,0 +1,72 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Badge snapshots > Badge with icon only 1`] = `
+<DocumentFragment>
+  <span
+    class="_root_5327bb _primary_5327bb _solid_5327bb _iconOnly_5327bb _icon_5327bb"
+    data-testid="badge-testid"
+  >
+    <span
+      data-testid="icon-only-testid"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge snapshots > Badge with left icon (without position declaration) 1`] = `
+<DocumentFragment>
+  <span
+    class="_root_5327bb _primary_5327bb _solid_5327bb _icon_5327bb"
+    data-testid="badge-testid"
+  >
+    <span
+      data-testid="icon-left-testid"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+    Budge!
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge snapshots > Badge with left icon 1`] = `
+<DocumentFragment>
+  <span
+    class="_root_5327bb _primary_5327bb _solid_5327bb _icon_5327bb"
+    data-testid="badge-testid"
+  >
+    <span
+      data-testid="icon-left-testid"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+    Budge!
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Badge snapshots > Badge with right icon 1`] = `
+<DocumentFragment>
+  <span
+    class="_root_5327bb _primary_5327bb _solid_5327bb _icon_5327bb"
+    data-testid="badge-testid"
+  >
+    Budge!
+    <span
+      data-testid="icon-right-testid"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+  </span>
+</DocumentFragment>
+`;
