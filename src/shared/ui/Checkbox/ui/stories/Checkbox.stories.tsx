@@ -1,24 +1,24 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import RadioButton from '../RadioButton';
+import Checkbox from '../Checkbox';
 
-const meta: Meta<typeof RadioButton> = {
-  component: RadioButton,
-  title: 'Components/RadioButton',
+const meta: Meta<typeof Checkbox> = {
+  component: Checkbox,
+  title: 'Components/Checkbox',
   tags: ['autodocs'],
   parameters: {
     docs: {
       subtitle:
-        'RadioButton component that includes all cases in our design layout',
+        'Checkbox component that includes all cases in our design layout',
     },
   },
   argTypes: {},
 };
 
 export default meta;
-type Story = StoryObj<typeof RadioButton>;
+type Story = StoryObj<typeof Checkbox>;
 
 export const Default: Story = {
-  name: 'RadioButton',
+  name: 'Checkbox',
   args: {},
   parameters: {
     docs: {
@@ -37,23 +37,23 @@ export const Default: Story = {
         flexDirection: 'column',
       }}
     >
-      <RadioButton name="test" />
-      <RadioButton name="test" />
-      <RadioButton name="test" />
-      <RadioButton disabled />
-      <RadioButton disabled checked />
+      <Checkbox />
+      <Checkbox />
+      <Checkbox checked />
+      <Checkbox disabled />
+      <Checkbox disabled checked />
     </div>
   ),
 };
 
 export const DarkMode: Story = {
-  name: 'RadioButton on dark mode',
+  name: 'Checkbox on dark mode',
   args: {},
   parameters: {
     docs: {
       description: {
         story:
-          'You can see what the RadioButton component looks like with dark mode',
+          'You can see what the Checkbox component looks like with dark mode',
       },
     },
     backgrounds: {
@@ -70,11 +70,11 @@ export const DarkMode: Story = {
         flexDirection: 'column',
       }}
     >
-      <RadioButton name="test" />
-      <RadioButton name="test" />
-      <RadioButton name="test" />
-      <RadioButton disabled />
-      <RadioButton disabled checked />
+      <Checkbox />
+      <Checkbox />
+      <Checkbox checked />
+      <Checkbox disabled />
+      <Checkbox disabled checked />
     </div>
   ),
 };
