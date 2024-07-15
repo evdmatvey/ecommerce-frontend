@@ -1,4 +1,4 @@
-@import url(../src/app/styles/variables.css);
+@import url(../src/app/styles/globals.css);
 
 * {
   box-sizing: border-box;

@@ -124,8 +124,7 @@
 .heading3,
 .heading4,
 .heading5,
-.heading6,
-.s {
+.heading6 {
   font-weight: 600;
 }
 
@@ -137,6 +136,7 @@
 
 .l,
 .xl,
+.s,
 .regular {
   font-weight: 400;
 }
