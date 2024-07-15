@@ -1,0 +1,263 @@
+.input {
+  width: 100%;
+  line-height: 1.5;
+  font-family: var(--font-family);
+  border: 1px solid var(--gray-300);
+  color: var(--gray-600);
+  background: transparent;
+}
+
+[data-theme='dark'] .input {
+  color: var(--gray-300);
+  border-color: var(--gray-600);
+}
+
+.input:focus {
+  border-color: var(--gray-900);
+  outline: none;
+}
+
+[data-theme='dark'] .input:focus {
+  border-color: var(--white-100);
+}
+
+.input:disabled {
+  background: var(--gray-50);
+  color: var(--gray-400);
+  border: 1px dashed var(--gray-200);
+}
+
+[data-theme='dark'] .input:disabled {
+  background: var(--gray-80);
+  color: var(--gray-500);
+  border: 1px dashed var(--gray-700);
+}
+
+.input::placeholder {
+  color: var(--gray-400);
+}
+
+[data-theme='dark'] .input::placeholder {
+  color: var(--gray-500);
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper.withIcon .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper.small {
+  gap: 5px;
+}
+
+.wrapper.medium {
+  gap: 7px;
+}
+
+.wrapper.large {
+  gap: 10px;
+}
+
+.error {
+  line-height: 1.5;
+  color: var(--danger-main);
+}
+
+.small .error {
+  font-size: 12px;
+}
+
+.medium .error,
+.medium .large {
+  font-size: 14px;
+}
+
+.inputSuccess span,
+.inputError span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.inputError .input {
+  border-color: var(--danger-main);
+}
+
+.inputSuccess span svg path {
+  fill: var(--success-main);
+}
+
+.inputError span svg path {
+  fill: var(--danger-main);
+}
+
+.medium .input {
+  height: 40px;
+  padding: 9px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.medium.inputSuccess .input,
+.medium.inputError .input {
+  padding: 9px 42px 9px 16px;
+}
+
+.medium.inputSuccess span,
+.medium.inputError span {
+  right: 16px;
+}
+
+.medium.withIcon.left .input {
+  padding-left: 42px;
+}
+
+.medium.withIcon.left .icon {
+  left: 16px;
+}
+
+.medium.withIcon.right.inputSuccess .icon,
+.medium.withIcon.right.inputError .icon {
+  right: 42px;
+}
+
+.medium.inputSuccess.withIcon.right .input,
+.medium.inputError.withIcon.right .input {
+  padding-right: 68px;
+}
+
+.medium.withIcon.right .icon,
+.medium.withIcon.right .icon {
+  right: 16px;
+}
+
+.large span,
+.large span svg {
+  width: 18px;
+  height: 18px;
+}
+
+.large .input {
+  height: 48px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.large.inputSuccess .input,
+.large.inputError .input {
+  padding: 9px 44px 9px 16px;
+}
+
+.large.inputSuccess span,
+.large.inputError span {
+  right: 16px;
+}
+
+.large.withIcon.left .input {
+  padding-left: 44px;
+}
+
+.large.withIcon.left .icon {
+  left: 16px;
+}
+
+.large.withIcon.right.inputSuccess .icon,
+.large.withIcon.right.inputError .icon {
+  right: 44px;
+}
+
+.large.inputSuccess.withIcon.right .input,
+.large.inputError.withIcon.right .input {
+  padding-right: 72px;
+}
+
+.large.withIcon.right .icon,
+.large.withIcon.right .icon {
+  right: 16px;
+}
+
+.medium span,
+.medium span svg {
+  width: 16px;
+  height: 16px;
+}
+
+.small .input {
+  height: 32px;
+  padding: 7px 14px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.small.inputSuccess .input,
+.small.inputError .input {
+  padding: 7px 36px 7px 14px;
+}
+
+.small.inputSuccess.withIcon.right .input,
+.small.inputError.withIcon.right .input {
+  padding-right: 58px;
+}
+
+.small.inputSuccess span,
+.small.inputError span {
+  right: 14px;
+}
+
+.small.withIcon.right.inputSuccess .icon,
+.small.withIcon.right.inputError .icon {
+  right: 36px;
+}
+
+.small.withIcon.right .icon,
+.small.withIcon.right .icon {
+  right: 16px;
+}
+
+.small.withIcon .small span,
+.small span svg {
+  width: 14px;
+  height: 14px;
+}
+
+.icon svg path,
+.wrapper.inputError .icon svg path,
+.wrapper.inputSuccess .icon svg path {
+  fill: var(--gray-600);
+}
+
+[data-theme='dark'] .icon svg path,
+[data-theme='dark'] .wrapper.inputError .icon svg path,
+[data-theme='dark'] .wrapper.inputSuccess .icon svg path {
+  fill: var(--gray-300);
+}
+
+.wrapper:has(.input:disabled) svg path {
+  fill: var(--gray-400);
+}
+
+[data-theme='dark'] .wrapper:has(.input:disabled) svg path {
+  fill: var(--gray-500);
+}
+
+.wrapper:has(.input:disabled) .input {
+  border-color: var(--gray-200);
+}
+
+[data-theme='dark'] .wrapper:has(.input:disabled) .input {
+  border-color: var(--gray-700);
+}

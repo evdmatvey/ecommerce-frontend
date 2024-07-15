@@ -1,0 +1,179 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TextField snapshots > TextField error 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_ea60d2"
+  >
+    <div
+      class="_wrapper_ea60d2 _medium_ea60d2 _left_ea60d2 _inputError_ea60d2"
+    >
+      <input
+        class="_input_ea60d2"
+      />
+      <span>
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M12 2.875C6.9604 2.875 2.875 6.9604 2.875 12C2.875 17.0396 6.9604 21.125 12 21.125C17.0396 21.125 21.125 17.0396 21.125 12C21.125 6.9604 17.0396 2.875 12 2.875ZM1.125 12C1.125 5.9939 5.9939 1.125 12 1.125C18.0061 1.125 22.875 5.9939 22.875 12C22.875 18.0061 18.0061 22.875 12 22.875C5.9939 22.875 1.125 18.0061 1.125 12Z"
+            fill="#181D25"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M15.6187 8.38128C15.9604 8.72299 15.9604 9.27701 15.6187 9.61872L9.61872 15.6187C9.27701 15.9604 8.72299 15.9604 8.38128 15.6187C8.03957 15.277 8.03957 14.723 8.38128 14.3813L14.3813 8.38128C14.723 8.03957 15.277 8.03957 15.6187 8.38128Z"
+            fill="#181D25"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M8.38128 8.38128C8.72299 8.03957 9.27701 8.03957 9.61872 8.38128L15.6187 14.3813C15.9604 14.723 15.9604 15.277 15.6187 15.6187C15.277 15.9604 14.723 15.9604 14.3813 15.6187L8.38128 9.61872C8.03957 9.27701 8.03957 8.72299 8.38128 8.38128Z"
+            fill="#181D25"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+    </div>
+    <div
+      class="_error_ea60d2"
+    >
+      Error
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField snapshots > TextField success 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_ea60d2"
+  >
+    <div
+      class="_wrapper_ea60d2 _medium_ea60d2 _left_ea60d2 _inputSuccess_ea60d2"
+    >
+      <input
+        class="_input_ea60d2"
+      />
+      <span>
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.98902 3.09374C11.9084 2.66009 13.9165 2.85849 15.7139 3.65936C16.1553 3.85604 16.6726 3.65765 16.8693 3.21623C17.0659 2.77482 16.8675 2.25754 16.4261 2.06086C14.284 1.1064 11.8908 0.869949 9.60336 1.38677C7.3159 1.90359 5.2568 3.14599 3.73313 4.92868C2.20946 6.71136 1.30287 8.93882 1.14857 11.2789C0.994273 13.6189 1.60053 15.9461 2.87692 17.9134C4.15331 19.8807 6.03145 21.3828 8.23124 22.1955C10.431 23.0082 12.8346 23.088 15.0835 22.4231C17.3323 21.7582 19.306 20.3841 20.7102 18.5058C22.1143 16.6276 22.8737 14.3452 22.875 12.0001V11.0801C22.875 10.5969 22.4833 10.2051 22 10.2051C21.5168 10.2051 21.125 10.5969 21.125 11.0801V11.9996C21.1239 13.9673 20.4867 15.882 19.3085 17.458C18.1303 19.034 16.4742 20.187 14.5873 20.7449C12.7003 21.3028 10.6835 21.2358 8.83771 20.5539C6.99191 19.872 5.416 18.6117 4.345 16.9609C3.27401 15.3102 2.76531 13.3575 2.89478 11.394C3.02425 9.43052 3.78495 7.56151 5.06343 6.06569C6.34191 4.56987 8.06967 3.5274 9.98902 3.09374Z"
+            fill="#181D25"
+          />
+          <path
+            d="M22.619 4.61841C22.9606 4.27653 22.9603 3.72251 22.6184 3.38097C22.2765 3.03943 21.7225 3.03971 21.381 3.38159L11.9997 12.7723L9.61872 10.3913C9.27701 10.0496 8.72299 10.0496 8.38128 10.3913C8.03957 10.733 8.03957 11.287 8.38128 11.6287L11.3813 14.6287C11.5454 14.7929 11.7681 14.8851 12.0002 14.885C12.2324 14.8849 12.455 14.7926 12.619 14.6284L22.619 4.61841Z"
+            fill="#181D25"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField snapshots > TextField with icon and error 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_ea60d2"
+  >
+    <div
+      class="_wrapper_ea60d2 _medium_ea60d2 _left_ea60d2 _inputError_ea60d2 _withIcon_ea60d2"
+    >
+      <input
+        class="_input_ea60d2"
+      />
+      <span>
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M12 2.875C6.9604 2.875 2.875 6.9604 2.875 12C2.875 17.0396 6.9604 21.125 12 21.125C17.0396 21.125 21.125 17.0396 21.125 12C21.125 6.9604 17.0396 2.875 12 2.875ZM1.125 12C1.125 5.9939 5.9939 1.125 12 1.125C18.0061 1.125 22.875 5.9939 22.875 12C22.875 18.0061 18.0061 22.875 12 22.875C5.9939 22.875 1.125 18.0061 1.125 12Z"
+            fill="#181D25"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M15.6187 8.38128C15.9604 8.72299 15.9604 9.27701 15.6187 9.61872L9.61872 15.6187C9.27701 15.9604 8.72299 15.9604 8.38128 15.6187C8.03957 15.277 8.03957 14.723 8.38128 14.3813L14.3813 8.38128C14.723 8.03957 15.277 8.03957 15.6187 8.38128Z"
+            fill="#181D25"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M8.38128 8.38128C8.72299 8.03957 9.27701 8.03957 9.61872 8.38128L15.6187 14.3813C15.9604 14.723 15.9604 15.277 15.6187 15.6187C15.277 15.9604 14.723 15.9604 14.3813 15.6187L8.38128 9.61872C8.03957 9.27701 8.03957 8.72299 8.38128 8.38128Z"
+            fill="#181D25"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      <span
+        class="_icon_ea60d2"
+      >
+        <span>
+          Icon
+        </span>
+      </span>
+    </div>
+    <div
+      class="_error_ea60d2"
+    >
+      Error
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField snapshots > TextField with icon standard props 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_ea60d2"
+  >
+    <div
+      class="_wrapper_ea60d2 _medium_ea60d2 _left_ea60d2 _withIcon_ea60d2"
+    >
+      <input
+        class="_input_ea60d2"
+      />
+      <span
+        class="_icon_ea60d2"
+      >
+        <span>
+          Icon
+        </span>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextField snapshots > TextField with standard props 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_ea60d2"
+  >
+    <div
+      class="_wrapper_ea60d2 _medium_ea60d2 _left_ea60d2"
+    >
+      <input
+        class="_input_ea60d2"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
