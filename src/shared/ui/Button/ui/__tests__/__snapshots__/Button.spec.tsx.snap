@@ -1,0 +1,72 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button snapshots > Button with icon only 1`] = `
+<DocumentFragment>
+  <button
+    class="_root_bfc85f _medium_bfc85f _primary_bfc85f _solid_bfc85f _iconOnly_bfc85f _icon_bfc85f"
+    data-testid="button"
+  >
+    <span
+      data-testid="icon-only"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots > Button with left icon (without position declaration) 1`] = `
+<DocumentFragment>
+  <button
+    class="_root_bfc85f _medium_bfc85f _primary_bfc85f _solid_bfc85f _icon_bfc85f"
+    data-testid="button"
+  >
+    <span
+      data-testid="icon-left"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots > Button with left icon 1`] = `
+<DocumentFragment>
+  <button
+    class="_root_bfc85f _medium_bfc85f _primary_bfc85f _solid_bfc85f _icon_bfc85f"
+    data-testid="button"
+  >
+    <span
+      data-testid="icon-left"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button snapshots > Button with right icon 1`] = `
+<DocumentFragment>
+  <button
+    class="_root_bfc85f _medium_bfc85f _primary_bfc85f _solid_bfc85f _icon_bfc85f"
+    data-testid="button"
+  >
+    Click me
+    <span
+      data-testid="icon-right"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+  </button>
+</DocumentFragment>
+`;

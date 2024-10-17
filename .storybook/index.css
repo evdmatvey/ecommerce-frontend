@@ -1,0 +1,13 @@
+@import url(../src/app/styles/globals.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.dark-bg {
+  background: var(--gray-800);
+}

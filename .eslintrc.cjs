@@ -1,3 +1,7 @@
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', 'next/core-web-vitals'],
+  extends: [
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "plugin:storybook/recommended"
+  ],
 };

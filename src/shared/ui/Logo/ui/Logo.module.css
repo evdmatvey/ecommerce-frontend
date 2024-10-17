@@ -1,0 +1,23 @@
+.standard {
+  height: 40px;
+}
+
+.large {
+  height: 48px;
+}
+
+.withIcon {
+  width: 141px;
+}
+
+.withoutIcon {
+  width: 96px;
+}
+
+.withoutIcon.large {
+  width: 128px;
+}
+
+.withIcon.large {
+  width: 180px;
+}

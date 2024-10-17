@@ -5,6 +5,11 @@ const nextConfig = {
     locales: ['en', 'ru'],
     defaultLocale: 'ru',
   },
+  compiler: {
+    reactRemoveProperties: {
+      properties: ['^data-testid$'],
+    },
+  },
 };
 
 export default nextConfig;

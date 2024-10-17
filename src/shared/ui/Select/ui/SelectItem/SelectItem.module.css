@@ -1,0 +1,48 @@
+.root {
+  color: var(--gray-700);
+  transition: all 0.15s ease-in;
+  cursor: pointer;
+  line-height: 1.5;
+  border-radius: 6px;
+}
+
+.root.active {
+  background: var(--gray-100);
+  color: var(--gray-900);
+}
+
+.root.medium {
+  padding: 9px 12px;
+  font-size: 14px;
+}
+
+.root.large {
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.root.small {
+  padding: 7px 12px;
+  font-size: 12px;
+}
+
+.root.disabled {
+  color: var(--gray-400);
+}
+
+@media (hover: hover) {
+  .root:hover {
+    color: var(--gray-900);
+    background: var(--gray-50);
+  }
+
+  .root.disabled:hover {
+    color: var(--gray-400);
+    background: transparent;
+    cursor: default;
+  }
+
+  .root.active:hover {
+    background: var(--gray-100);
+  }
+}

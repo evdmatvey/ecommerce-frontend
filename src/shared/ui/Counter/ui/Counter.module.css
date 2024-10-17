@@ -1,0 +1,152 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.increment,
+.decrement,
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: var(--gray-300);
+  background: transparent;
+}
+
+[data-theme='dark'] .increment,
+[data-theme='dark'] .decrement,
+[data-theme='dark'] .count {
+  border-color: var(--gray-600);
+}
+
+.increment,
+.decrement {
+  transition: all 0.15s ease;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.increment:disabled svg path,
+.decrement:disabled svg path {
+  fill: var(--gray-400);
+}
+
+[data-theme='dark'] .increment:disabled svg path,
+[data-theme='dark'] .decrement:disabled svg path {
+  fill: var(--gray-500);
+}
+
+[data-theme='dark'] .increment svg path,
+[data-theme='dark'] .decrement svg path {
+  fill: var(--white-100);
+}
+
+.increment svg path,
+.decrement svg path {
+  fill: var(--gray-700);
+}
+
+.increment svg path,
+.decrement svg path {
+  fill: var(--gray-700);
+}
+
+.increment:hover,
+.decrement:hover {
+  background: var(--gray-100);
+}
+
+[data-theme='dark'] .increment:hover,
+[data-theme='dark'] .decrement:hover {
+  background: var(--gray-700);
+}
+
+.increment:disabled,
+.decrement:disabled {
+  cursor: default;
+}
+
+.increment:disabled:hover,
+.decrement:disabled:hover {
+  background: transparent;
+}
+
+.decrement {
+  border-radius: 6px 0 0 6px;
+  border-right: none;
+}
+
+.increment {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+
+.count {
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--gray-700);
+}
+
+[data-theme='dark'] .count {
+  color: var(--gray-200);
+}
+
+.small .count {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+}
+
+.small .increment,
+.small .decrement {
+  width: 32px;
+  height: 32px;
+  padding: 9px;
+}
+
+.small .increment svg,
+.small .decrement svg {
+  width: 14px;
+  height: 14px;
+}
+
+.medium .count {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.medium .increment,
+.medium .decrement {
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+}
+
+.medium .increment svg,
+.medium .decrement svg {
+  width: 16px;
+  height: 16px;
+}
+
+.large .count {
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+}
+
+.large .increment,
+.large .decrement {
+  width: 48px;
+  height: 48px;
+  padding: 15px;
+}
+
+.large .increment svg,
+.large .decrement svg {
+  width: 18px;
+  height: 18px;
+}

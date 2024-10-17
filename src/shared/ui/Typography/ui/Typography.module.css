@@ -1,0 +1,192 @@
+.display1 {
+  font-size: 80px;
+}
+
+.display2 {
+  font-size: 72px;
+}
+
+.display3 {
+  font-size: 64px;
+}
+
+.display4 {
+  font-size: 56px;
+}
+
+.display5 {
+  font-size: 48px;
+}
+
+.display6 {
+  font-size: 42px;
+}
+
+.heading1 {
+  font-size: 40px;
+}
+
+.heading2 {
+  font-size: 32px;
+}
+
+.heading3 {
+  font-size: 28px;
+}
+
+.heading4 {
+  font-size: 24px;
+}
+
+.heading5 {
+  font-size: 20px;
+}
+
+.heading6 {
+  font-size: 16px;
+}
+
+.xl {
+  font-size: 20px;
+}
+
+.l {
+  font-size: 18px;
+}
+
+.navLink {
+  font-size: 16px;
+}
+
+.navLinkS {
+  font-size: 14px;
+}
+
+.navLinkXs {
+  font-size: 12px;
+}
+
+.s {
+  font-size: 14px;
+}
+
+.xs {
+  font-size: 12px;
+}
+
+.regular {
+  font-size: 16px;
+}
+
+.display1,
+.display2,
+.display3,
+.display4,
+.heading1 {
+  line-height: 1.2;
+}
+
+.display5,
+.display6,
+.heading2,
+.heading3,
+.heading4,
+.navLinkXs {
+  line-height: 1.3;
+}
+
+.heading5,
+.navLinkS {
+  line-height: 1.4;
+}
+
+.display1,
+.display2,
+.display3,
+.display4,
+.display5,
+.display6 {
+  font-weight: 700;
+}
+
+.heading6,
+.xs,
+.s,
+.navLink,
+.l,
+.xl,
+.regular {
+  line-height: 1.5;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6 {
+  font-weight: 600;
+}
+
+.navLink,
+.navLinkS,
+.navLinkXs {
+  font-weight: 500;
+}
+
+.l,
+.xl,
+.s,
+.regular {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+  .h1 {
+    font-size: 28px;
+  }
+
+  .h2 {
+    font-size: 25px;
+  }
+
+  .h3 {
+    font-size: 23px;
+  }
+
+  .h4 {
+    font-size: 22px;
+  }
+
+  .h5 {
+    font-size: 20px;
+  }
+
+  .h6 {
+    font-size: 16;
+  }
+
+  .display1 {
+    font-size: 44px;
+  }
+
+  .display2 {
+    font-size: 40px;
+  }
+
+  .display3 {
+    font-size: 37px;
+  }
+
+  .display4 {
+    font-size: 34px;
+  }
+
+  .display5 {
+    font-size: 31px;
+  }
+
+  .display6 {
+    font-size: 29px;
+  }
+}

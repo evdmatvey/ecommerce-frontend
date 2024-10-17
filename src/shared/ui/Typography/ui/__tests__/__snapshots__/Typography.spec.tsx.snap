@@ -1,0 +1,91 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Typography > Display should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_display1_4a62f9"
+  >
+    Test text
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Typography > H1 should render correctly 1`] = `
+<DocumentFragment>
+  <h1
+    class=""
+  >
+    Test text
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`Typography > Heading should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_heading1_4a62f9"
+  >
+    Test text
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Typography > Large should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_l_4a62f9"
+  >
+    Test text
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Typography > Nav link should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_navLink_4a62f9"
+  >
+    Test text
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Typography > P should render correctly 1`] = `
+<DocumentFragment>
+  <p
+    class=""
+  >
+    Test text
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Typography > Small should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_s_4a62f9"
+  >
+    Test text
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Typography > Span should render correctly 1`] = `
+<DocumentFragment>
+  <span
+    class=""
+  >
+    Test text
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Typography > Standard should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+  >
+    Test text
+  </div>
+</DocumentFragment>
+`;

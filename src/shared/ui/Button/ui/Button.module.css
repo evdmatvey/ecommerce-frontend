@@ -1,0 +1,275 @@
+.root {
+  font-family: var(--font-family);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon svg {
+  width: inherit;
+  height: inherit;
+}
+
+.icon svg path,
+.icon svg {
+  fill: inherit;
+}
+
+/* size */
+
+.small {
+  min-height: 32px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.small.iconOnly {
+  padding: 9px;
+}
+
+.icon.small,
+.icon.medium {
+  gap: 6px;
+}
+
+.small span {
+  width: 14px;
+  height: 14px;
+}
+
+.medium {
+  min-height: 40px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.medium.iconOnly {
+  padding: 12px;
+}
+
+.medium span {
+  width: 16px;
+  height: 16px;
+}
+
+.large {
+  min-height: 48px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.large.iconOnly {
+  padding: 15px;
+}
+
+.icon.large {
+  gap: 8px;
+}
+
+.large span {
+  width: 18px;
+  height: 18px;
+}
+
+/* variant */
+
+.solid {
+  border: none;
+  color: var(--white-100);
+  fill: var(--white-100);
+  transition: all 0.15s ease;
+}
+
+.outlined {
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+}
+
+/* color */
+
+.solid.primary {
+  background: var(--primary-main);
+}
+
+.outlined.primary {
+  border-color: var(--primary-main);
+  color: var(--primary-main);
+  fill: var(--primary-main);
+}
+
+.primary:hover {
+  background: var(--primary-action);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.solid.info {
+  background: var(--info-main);
+}
+
+.outlined.info {
+  border-color: var(--info-main);
+  color: var(--info-main);
+  fill: var(--info-main);
+}
+
+.info:hover {
+  background: var(--info-action);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.solid.warning {
+  background: var(--warning-main);
+}
+
+.outlined.warning {
+  border-color: var(--warning-main);
+  color: var(--warning-main);
+  fill: var(--warning-main);
+}
+
+.warning:hover {
+  background: var(--warning-action);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.solid.success {
+  background: var(--success-main);
+}
+
+.outlined.success {
+  border-color: var(--success-main);
+  color: var(--success-main);
+  fill: var(--success-main);
+}
+
+.success:hover {
+  background: var(--success-action);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.solid.danger {
+  background: var(--danger-main);
+}
+
+.outlined.danger {
+  border-color: var(--danger-main);
+  color: var(--danger-main);
+  fill: var(--danger-main);
+}
+
+.danger:hover {
+  background: var(--danger-action);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.solid.secondary {
+  border: 1px solid var(--gray-200);
+  background: transparent;
+  color: var(--gray-900);
+  fill: var(--gray-900);
+}
+
+[data-theme='dark'] .solid.secondary {
+  border: 1px solid var(--gray-700);
+  color: var(--gray-200);
+  fill: var(--gray-200);
+}
+
+.outlined.secondary {
+  background: transparent;
+  border-color: var(--gray-900);
+  color: var(--gray-900);
+  fill: var(--gray-900);
+}
+
+[data-theme='dark'] .outlined.secondary {
+  border: 1px solid var(--white-100);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.secondary:hover {
+  border-color: var(--gray-500);
+}
+
+[data-theme='dark'] .secondary:hover {
+  border: 1px solid var(--gray-400);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.solid.black {
+  background: var(--gray-800);
+}
+
+.outlined.black {
+  border-color: var(--gray-800);
+  color: var(--gray-800);
+  fill: var(--gray-800);
+}
+
+.black:hover {
+  background: var(--gray-950);
+  border-color: var(--gray-950);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+[data-theme='dark'] .solid.black {
+  background: var(--white-100);
+  color: var(--gray-900);
+  fill: var(--gray-900);
+}
+
+[data-theme='dark'] .outlined.black {
+  border-color: var(--white-100);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+[data-theme='dark'] .black:hover {
+  background: var(--gray-200);
+  border-color: var(--gray-200);
+  color: var(--gray-900);
+  fill: var(--gray-900);
+}
+
+.solid.gray {
+  background: var(--gray-100);
+  color: var(--gray-900);
+  fill: var(--gray-900);
+}
+
+.solid.gray:hover {
+  background: var(--gray-200);
+  color: var(--white-900);
+  fill: var(--white-900);
+}
+
+[data-theme='dark'] .solid.gray {
+  background: var(--gray-700);
+  color: var(--gray-200);
+  fill: var(--gray-200);
+}
+
+[data-theme='dark'] .solid.gray:hover {
+  background: var(--gray-600);
+  color: var(--white-100);
+  fill: var(--white-100);
+}

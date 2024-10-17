@@ -1,0 +1,155 @@
+.root {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.root.iconOnly {
+  padding: 4px;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon span {
+  width: 12px;
+  height: 12px;
+}
+
+.icon svg {
+  width: inherit;
+  height: inherit;
+}
+
+.icon svg path,
+.icon svg {
+  fill: inherit;
+}
+
+/* colors */
+
+.solid,
+.icon span {
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.solid.primary {
+  background: var(--primary-main);
+}
+
+.solid.secondary {
+  background: var(--gray-50);
+  color: var(--gray-900);
+}
+
+.solid.info {
+  background: var(--info-main);
+}
+
+.solid.warning {
+  background: var(--warning-main);
+}
+
+.solid.success {
+  background: var(--success-main);
+}
+
+.solid.danger {
+  background: var(--danger-main);
+}
+
+.translucent.info {
+  background: var(--info-subtle-background-light);
+  color: var(--info-action);
+}
+
+.translucent.info.icon span {
+  fill: var(--info-action);
+}
+
+[data-theme='dark'] .translucent.info {
+  background: var(--info-subtle-background-dark);
+  color: var(--info-main);
+}
+
+[data-theme='dark'] .translucent.info.icon span {
+  fill: var(--info-main);
+}
+
+.translucent.success {
+  background: var(--success-subtle-background-light);
+  color: var(--success-action);
+}
+
+.translucent.success.icon span {
+  fill: var(--success-action);
+}
+
+[data-theme='dark'] .translucent.success {
+  background: var(--success-subtle-background-dark);
+  color: var(--success-main);
+}
+
+[data-theme='dark'] .translucent.success.icon span {
+  fill: var(--success-main);
+}
+
+.translucent.primary {
+  background: var(--primary-subtle-background-light);
+  color: var(--primary-action);
+}
+
+.translucent.primary.icon span {
+  fill: var(--primary-action);
+}
+
+[data-theme='dark'] .translucent.primary {
+  background: var(--primary-subtle-background-dark);
+  color: var(--primary-main);
+}
+
+[data-theme='dark'] .translucent.primary.icon span {
+  fill: var(--primary-main);
+}
+
+.translucent.warning {
+  background: var(--warning-subtle-background-light);
+  color: var(--warning-action);
+}
+
+.translucent.warning.icon span {
+  fill: var(--warning-action);
+}
+
+[data-theme='dark'] .translucent.warning {
+  background: var(--warning-subtle-background-dark);
+  color: var(--warning-main);
+}
+
+[data-theme='dark'] .translucent.warning.icon span {
+  fill: var(--warning-main);
+}
+
+.translucent.danger {
+  background: var(--danger-subtle-background-light);
+  color: var(--danger-action);
+}
+
+.translucent.danger.icon span {
+  fill: var(--danger-action);
+}
+
+[data-theme='dark'] .translucent.danger {
+  background: var(--danger-subtle-background-dark);
+  color: var(--danger-main);
+}
+
+[data-theme='dark'] .translucent.danger.icon span {
+  fill: var(--danger-main);
+}

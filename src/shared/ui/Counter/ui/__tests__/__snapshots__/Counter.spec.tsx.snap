@@ -1,0 +1,118 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Counter snapshots > Counter with disabled decrement 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_0163fa _medium_0163fa"
+  >
+    <button
+      class="_decrement_0163fa"
+      data-testid="decrement"
+      disabled=""
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M4.125 12C4.125 11.5168 4.51675 11.125 5 11.125H19C19.4832 11.125 19.875 11.5168 19.875 12C19.875 12.4832 19.4832 12.875 19 12.875H5C4.51675 12.875 4.125 12.4832 4.125 12Z"
+          fill="#181D25"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <span
+      class="_count_0163fa"
+    >
+      1
+    </span>
+    <button
+      class="_increment_0163fa"
+      data-testid="increment"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M12 4.125C12.4832 4.125 12.875 4.51675 12.875 5V19C12.875 19.4832 12.4832 19.875 12 19.875C11.5168 19.875 11.125 19.4832 11.125 19V5C11.125 4.51675 11.5168 4.125 12 4.125Z"
+          fill="#181D25"
+          fill-rule="evenodd"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M4.125 12C4.125 11.5168 4.51675 11.125 5 11.125H19C19.4832 11.125 19.875 11.5168 19.875 12C19.875 12.4832 19.4832 12.875 19 12.875H5C4.51675 12.875 4.125 12.4832 4.125 12Z"
+          fill="#181D25"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Counter snapshots > Counter with disabled increment 1`] = `
+<DocumentFragment>
+  <div
+    class="_root_0163fa _medium_0163fa"
+  >
+    <button
+      class="_decrement_0163fa"
+      data-testid="decrement"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M4.125 12C4.125 11.5168 4.51675 11.125 5 11.125H19C19.4832 11.125 19.875 11.5168 19.875 12C19.875 12.4832 19.4832 12.875 19 12.875H5C4.51675 12.875 4.125 12.4832 4.125 12Z"
+          fill="#181D25"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <span
+      class="_count_0163fa"
+    >
+      1
+    </span>
+    <button
+      class="_increment_0163fa"
+      data-testid="increment"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M12 4.125C12.4832 4.125 12.875 4.51675 12.875 5V19C12.875 19.4832 12.4832 19.875 12 19.875C11.5168 19.875 11.125 19.4832 11.125 19V5C11.125 4.51675 11.5168 4.125 12 4.125Z"
+          fill="#181D25"
+          fill-rule="evenodd"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M4.125 12C4.125 11.5168 4.51675 11.125 5 11.125H19C19.4832 11.125 19.875 11.5168 19.875 12C19.875 12.4832 19.4832 12.875 19 12.875H5C4.51675 12.875 4.125 12.4832 4.125 12Z"
+          fill="#181D25"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;
